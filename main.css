@@ -1,0 +1,98 @@
+
+#karte {
+  width:800px;
+  height:400px;
+  background-color:gray;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Raleway', sans-serif;
+  border-radius:5px;
+  overflow:hidden;
+}
+#kopf {
+  height:350px;
+  background-color:#59ABE3;
+}
+#profil {
+  padding-top:50px;
+  width:250px;
+  height:300px;
+  margin-left:auto;
+  margin-right:auto;
+  color:white;
+  text-align:center;
+}
+#profil a {
+  font-weight:bold;
+}
+#profil p {
+  font-size:130%;
+}
+#profil_img {
+  width:180px;
+  height:180px;
+  overflow:hidden;
+  border-radius:100%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+}
+#profil_img img {
+  width:300px;
+  margin-left:-100px;
+}
+#social {
+  background-color:#DADFE1;
+  height:50px;
+}
+.box {
+  width:200px;
+  height:50px;
+  float:left;
+  color:gray;
+  text-align:center;
+  line-height:50px;
+  cursor:pointer;
+}
+.box a {
+  color:gray;
+  text-decoration:none;
+}
+.box:hover a {
+  color:white;
+}
+#fb:hover {
+  background-color:#3b5998;
+  color:white;
+}
+#yt:hover {
+  background-color:#bb0000;
+  color:white;
+}
+
+#go:hover{
+  background-color: yellowgreen;
+  color: white;
+}
+
+#sp:hover{
+  background-color: teal;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color:teal;
+  color: white;
+}
